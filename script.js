@@ -54,8 +54,6 @@ const cvu = () => {
     ALIAS: banana.pez.raton`)
 }
 
-
-
 do {
     menu = Number(prompt(`Hola ${nombreUsuario} ,Bienvenido a tu HomeBanking.
     1 - Ingresar dinero en Caja de ahorro
