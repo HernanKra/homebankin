@@ -4,10 +4,19 @@ let nombreUsuario = (prompt("Cual es su nombre?"))
 let newUser = (prompt("Cree su nombre de usuario"));
 let newPassword = (prompt("Ingrese una contraseña"));
 
+const Usuario = [
+    {nombre: `${nombreUsuario}`, miUsuario: `${newUser}`, pass: `${newPassword}`
+    }
+];
+console.log(Usuario);
+const info = Usuario.map((hola) => hola.nombre)
+console.log(info);
+
 alert("Usuario creado con exito, Ingrese a su HomeBanking");
 
 let user;
 let password;
+
 
 do {
     user = prompt("Ingrese su nombre de usuario");
